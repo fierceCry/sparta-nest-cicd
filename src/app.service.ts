@@ -7,7 +7,7 @@ export class AppService {
 
   getHello() {
     return {
-      message: 'Hello Sparta!12345',
+      message: 'Hello Sparta!123456789',
       data: {
         serverPort: this.configService.get<number>('SERVER_PORT'),
         jwtSecret: this.configService.get<number>('JWT_SECRET'),
