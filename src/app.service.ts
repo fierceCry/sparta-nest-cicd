@@ -7,7 +7,7 @@ export class AppService {
 
   getHello() {
     return {
-      message: 'Hello Wolrd CI/CD 설정',
+      message: 'Hello Wolrd CI/CD 설정 10시 7분',
       data: {
         serverPort: this.configService.get<number>('SERVER_PORT'),
         jwtSecret: this.configService.get<number>('JWT_SECRET'),
